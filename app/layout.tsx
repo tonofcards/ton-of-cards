@@ -1,0 +1,1 @@
+import './globals.css';import TopBar from './components/TopBar';export const metadata={title:'Ton of Cards',description:'Sports card inventory & listings helper',};export default function RootLayout({children}:{children:React.ReactNode}){return(<html lang="en"><body><TopBar/><div className="container">{children}</div></body></html>);}

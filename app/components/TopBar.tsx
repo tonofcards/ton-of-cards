@@ -1,0 +1,1 @@
+export default function TopBar(){return(<header className="toc-topbar"><div className="toc-brand"><img src="/logo.svg" alt="Ton of Cards" className="toc-logo"/><div><div className="toc-title">Ton of Cards</div><div className="toc-sub">Sports Card Inventory & Listings</div></div></div><nav className="toc-nav"><a href="/" className="toc-link">Inventory</a></nav></header>);}
